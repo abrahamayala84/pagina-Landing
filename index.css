@@ -1,0 +1,220 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+   /* background-image: url(./imagenes-pagina/pared\ de\ neon.jpg);*/
+    font-family: comic scripts;
+     font:bold;
+    }
+
+
+header {
+   
+    background-color:rgba(0, 0, 0, 0.975);
+
+
+
+}
+
+.contenedor-nav {
+    
+    align-items: center;
+    display: flex;
+    justify-content:space-between;
+     
+}
+
+
+.lista {
+    
+      
+    display: flex;
+    gap: 100px;
+  
+}
+.registro{
+   
+    background-color:rgb(0, 0, 0);
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+ .neon{
+    
+    color: #fff;
+    text-shadow:
+      0 0 5px #fff,
+      0 0 10px #fff,
+      0 0 20px #fff,
+      0 0 40px #0ff,
+      0 0 80px #0ff,
+      0 0 90px #0ff,
+      0 0 100px #0ff,
+      0 0 150px #0ff;
+ }
+
+  h1:hover{
+    text-shadow:
+    0 0 5px rgb(199, 91, 91),
+    0 0 10px rgb(239, 144, 144),
+    0 0 20px rgb(225, 85, 85),
+    0 0 40px rgb(255, 55, 0),
+    0 0 80px rgb(255, 8, 0),
+    0 0 90px rgb(255, 0, 0),
+    0 0 100px rgb(255, 0, 0),
+    0 0 150px rgb(255, 0, 0);
+
+  }
+
+ ul :hover{
+    
+    text-shadow:
+      0 0 5px rgb(199, 91, 91),
+      0 0 10px rgb(239, 144, 144),
+      0 0 20px rgb(225, 85, 85),
+      0 0 40px rgb(255, 55, 0),
+      0 0 80px rgb(255, 8, 0),
+      0 0 90px rgb(255, 0, 0),
+      0 0 100px rgb(255, 0, 0),
+      0 0 150px rgb(255, 0, 0);
+}
+
+.lista-2 {
+    display: flex;
+    gap: 20px;
+}
+
+img{
+    
+    width: 150px;
+    height: 150px;
+}
+
+.face {
+    width: 22px;
+    height: 22px;
+}
+
+.texto {
+    
+    font-size: 35px;
+    
+    
+}
+
+
+.menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 700px;
+   
+    text-align: center;
+    font-size: 30px
+    
+    
+}
+
+
+
+.carta-2 {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+   
+    
+}
+ .menu img {
+    width: 500px;
+    height: 450px;
+ }
+ 
+ .pizzas h1{
+    background-color: black;
+    text-align: center;
+    font-size: 40px;
+
+    
+ }
+
+ .carrousel{
+    background-color: black;
+    width: 100%;
+    border: 1px solid red;
+    
+
+    
+}
+
+.conteCarrousel{
+    padding-left: 50px;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    padding-right: 50px;
+}
+
+.itemCarrousel{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.itemCarrouselTarjeta{
+    width: 100%;
+    height: 100%;
+
+}
+
+.itemCarrouselTarjeta img{
+    height: 100%;
+    width: 35%
+    
+
+}
+
+.itemCarrouselArrows{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px; 
+}
+
+
+#itemCarrousel-1{
+    background-color: rgb(0, 0, 0);
+}
+
+#itemCarrousel-2{
+    background-color: rgb(0, 0, 0);
+}
+
+#itemCarrousel-3{
+    background-color: rgb(0, 0, 0);
+}
+
+.conteCarrouselController{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.conteCarrouselController > a{
+    text-decoration: none;
+    font-size: 2em;
+    color: grey;
+}
+
+
+  

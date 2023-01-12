@@ -2,13 +2,15 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+   
 }
 
 body {
+
     box-sizing: border-box;
    /* background-image: url(./imagenes-pagina/pared\ de\ neon.jpg);*/
     font-family: comic scripts;
-     font:bold;
+    padding:0 10 0 10 ;
     }
 
 
@@ -29,12 +31,18 @@ header {
 }
 
 
+
 .lista {
-    
+    text-decoration: none;
       
     display: flex;
     gap: 100px;
   
+}
+
+.lista a{
+    text-decoration: none;
+      
 }
 .registro{
    
@@ -120,7 +128,9 @@ img{
     
 }
 
-
+.carta h1{
+    padding-left: 10px;
+}
 
 .carta-2 {
     text-align: center;
@@ -144,7 +154,7 @@ img{
  .carrousel{
     background-color: black;
     width: 100%;
-    border: 1px solid red;
+    
     
 
     
@@ -213,8 +223,22 @@ img{
 .conteCarrouselController > a{
     text-decoration: none;
     font-size: 2em;
-    color: grey;
+    
 }
 
 
   
+.contenedor-footer{
+    display: grid;
+    grid-template-columns: repeat(4 1fr);
+    border-top: 1px solid white;
+    background-color: #0ff;
+    height: 200px;
+    width: 100%;
+}
+
+p{
+    font-size:  25px;;
+    color:red
+    
+}

@@ -6,6 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RetroPizza</title>
      <link rel="stylesheet" href="index.css">
+     <style>
+        img:hover {
+          animation: shake 0.5s;
+          animation-iteration-count: infinite;
+        }
+        
+        @keyframes shake {
+          0% { transform: translate(1px, 1px) rotate(0deg); }
+          10% { transform: translate(-1px, -2px) rotate(-1deg); }
+          20% { transform: translate(-3px, 0px) rotate(1deg); }
+          30% { transform: translate(3px, 2px) rotate(0deg); }
+          40% { transform: translate(1px, -1px) rotate(1deg); }
+          50% { transform: translate(-1px, 2px) rotate(-1deg); }
+          60% { transform: translate(-3px, 1px) rotate(0deg); }
+          70% { transform: translate(3px, 1px) rotate(-1deg); }
+          80% { transform: translate(-1px, -1px) rotate(1deg); }
+          90% { transform: translate(1px, 2px) rotate(0deg); }
+          100% { transform: translate(1px, -2px) rotate(-1deg); }
+        }
+        </style>
 </head>
 <body>
     <header>
@@ -18,12 +38,16 @@
                 <a href="#carta">
                  <il class="neon" class="texto">Menu</il>
                 </a>
+                <a href="#local">
                  <il class="neon" class="texto" >Local</il>
+                </a>
                  <a href="#pizza">
                  <il class="neon" class="texto">Pizzas</il>
                 </a>
                  <il class="neon" class="texto">Pedidos</il>
-                 <il class="neon" class="texto">Promociones</il>
+                 <a href="#resv">
+                 <il class="neon" class="texto">reservaciones</il>
+                </a>
              </ul>
 
 
@@ -54,10 +78,7 @@
                 <br><br>
                 <img class="menu-pizzas"src="./imagenes-pagina/carta.png" alt="">
                  <br>
-                 <div class="contenedor-input">
-                    <input type="text">
-                    <button></button>
-                </div>
+                
             </div>
             
             </div>
@@ -71,8 +92,6 @@
                 <br>
             </h1>
             
-        </div>
-       
         <div class="carrousel">
             <div class="conteCarrousel">
                 
@@ -114,25 +133,76 @@
                     </div>
                 </div>
             </div>
-        
+        </div>
         </div>
     </section>
-        
-        <div class="local">
-           <div class="cartas">q</div>
-           <div class="cartas">cartas</div>
-           <div class="cartas">s</div>
-
-
+    <div class="local-palabra"><h1 id="local" class="neon">Local</h1></div>
+        <div class="local-contnedor">
+        <div class="local"> 
+           <ul>
+            <il><h1>
+                diviertete con nuestras consolas y snaks
+            </h1></il><br>
+            <il><img src="./imagenes-pagina/retropizza3.jpg" alt=""></il>
+           <br>
+            <il class="neon"><a href="#" class="reservar">reservar</a></il>
+            
+           </ul>
         </div>
-        
-           
+        <div class="local-2"> 
+            <ul>
+             <il><h1>
+                 disfruta de nuestra terreza 
+             </h1></il><br>
+             <il><img src="./imagenes-pagina/retropizza.jpg">
+             <il><img src="./imagenes-pagina/retropizza2.jpg" alt=""></il>
+            <br>
+             <il class="neon"><a href="#resv" class="reservar">reservar</a></il>
+             
+            </ul>
+         </div>
+         <div class="local-2"> 
+            <ul>
+             <il><h1>
+                 ven con todos tus amigos 
+             </h1></il><br><br>
+             
+             <il><iframe src="https://www.facebook.com/plugins/video.php?height=316&href=https%3A%2F%2Fwww.facebook.com%2Fretropizzavic%2Fvideos%2F510696249516233%2F&show_text=false&width=560&t=0" width="560" height="316" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+                
+            <br>
+            <div class="contenedor-input"><br>
+                <h4 id="resv" style="font-size:40px;">reservaciones</h4><br>
+                <form id="resv" class="neon" action="input">NOMBRE<input class="radio" type="text">FECHA</input><input class="radio" type="datetime-local"></form>
+                
+                <button></button>
+            </div>
+             
+             
+            </ul>
+         </div>
+    </div>
             </div>
         </div>
         </div>
     </main>
     <div class="contenedor-footer">
-
+        <div class="contactanos">
+        <ul>
+        <il class="neon">
+            contactanos
+        </il>
+        <il ><img class="face" src="./imagenes-pagina/Facebook_Logo_(2019).png" alt=""></il>
+        <il><img class="face" src="./imagenes-pagina/instagram-logo-png-transparent-background-1024x1024-1.png" alt=""></il>
+        <il><img class="face" src="./imagenes-pagina/Mi proyecto (2).png" alt=""></il>
+        <il class="neon">TEL: 834-57-84-234</il>
+    </ul>
+    <div class="bolsa de trabajo">
+        trabaja con nosotros 
+    </div>
+    <div class=""></div>
+    <div class=""></div>
+    <div class=""></div>
+</div>
 
 
     </div>
